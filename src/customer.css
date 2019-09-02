@@ -1,0 +1,81 @@
+.customer {
+    margin: auto;
+    /* background-color: purple; */
+    width: 30%;
+    text-align: center;
+}
+
+.customerHead {
+    background-color: green;
+    height: 30vh;
+    line-height: 30vh;
+}
+
+.threeOptions {
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    /* padding-top: 20px; */
+    /* background-color: green; */
+}
+
+.dripBrew {
+    margin: auto;
+    height: 80%;
+    background-image: url(images/drip.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 30%;
+    /* text-align: center; */
+}
+
+.frenchPress {
+    margin: auto;
+    height: 80%;
+    background-image: url(images/french.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 30%;
+    /* text-align: center; */
+}
+
+.espresso {
+    margin: auto;
+    height: 80%;
+    background-image: url(images/espresso.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 30%;
+    /* text-align: center; */
+}
+
+.dripHighlighted {
+    margin: auto;
+    height: 100%;
+    background-image: url(images/drip.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 30%;
+    /* text-align: center; */
+}
+
+.frenchHighlighted {
+    margin: auto;
+    height: 100%;
+    background-image: url(images/french.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 30%;
+    /* text-align: center; */
+}
+
+.espressoHighlighted {
+    margin: auto;
+    height: 100%;
+    background-image: url(images/espresso.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 30%;
+    /* text-align: center; */
+}

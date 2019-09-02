@@ -1,0 +1,62 @@
+.barista {
+    margin: auto;
+    /* background-color: cornflowerblue; */
+    width: 30%;
+}
+
+.baristaHead {
+    background-image: url(./images/barista.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 30vh;
+}
+
+.threeDivs {
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.firstOrder {
+    margin: auto;
+    color: black;
+    /* background-color: pink; */
+}
+
+.firstMessage {
+    margin: auto;
+    color: black;
+    /* background-color: pink; */
+}
+
+.firstGreeting {
+    margin: auto;
+    /* background-color: pink; */
+}
+
+.transitionOut {
+    margin: auto;
+    animation-name: disappear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappear {
+    from { color: white; }
+    to { color: black; }
+}
+
+.transitionIn {
+    margin: auto;
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    from { color: black; }
+    to { color: white; }
+}

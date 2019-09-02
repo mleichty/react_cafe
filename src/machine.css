@@ -1,0 +1,61 @@
+.machine {
+    margin: auto;
+    /* background-color: cornflowerblue; */
+    width: 30%;
+    text-align: center;
+}
+
+.machineHead {
+    background-image: url(./images/machine.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 30vh;
+}
+
+.twoDivs {
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.statusMessage {
+    margin: auto;
+    /* background-color: pink; */
+}
+
+.firstLoadingBar {
+    margin: auto;
+    /* height: 50%; */
+    /* background-color: pink; */
+}
+
+.loadBar {
+    margin: auto;
+    width: 100%;
+    /* height: 50%; */
+    animation-name: loading;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+    from { background-color: blue; }
+    to { background-color: red; }
+}
+
+.unloadBar {
+    margin: auto;
+    width: 100%;
+    /* width: 50%; */
+    animation-name: unloading;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes unloading {
+    from { background-color: red; }
+    to { background-color: blue; }
+}
