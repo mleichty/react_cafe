@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react_cafe/static/css/main.195b06c6.chunk.css",
+    "main.js": "/react_cafe/static/js/main.a925e63e.chunk.js",
+    "main.js.map": "/react_cafe/static/js/main.a925e63e.chunk.js.map",
+    "runtime~main.js": "/react_cafe/static/js/runtime~main.b4fd2650.js",
+    "runtime~main.js.map": "/react_cafe/static/js/runtime~main.b4fd2650.js.map",
+    "static/js/2.dc9fbbcd.chunk.js": "/react_cafe/static/js/2.dc9fbbcd.chunk.js",
+    "static/js/2.dc9fbbcd.chunk.js.map": "/react_cafe/static/js/2.dc9fbbcd.chunk.js.map",
+    "index.html": "/react_cafe/index.html",
+    "precache-manifest.74b5e6e02a4bdcf72d38e14e0611ef96.js": "/react_cafe/precache-manifest.74b5e6e02a4bdcf72d38e14e0611ef96.js",
+    "service-worker.js": "/react_cafe/service-worker.js",
+    "static/css/main.195b06c6.chunk.css.map": "/react_cafe/static/css/main.195b06c6.chunk.css.map",
+    "static/media/barista.css": "/react_cafe/static/media/barista.31d8038c.jpg",
+    "static/media/customer.css": "/react_cafe/static/media/french.ab2f1dde.jpg"
+  }
+}
